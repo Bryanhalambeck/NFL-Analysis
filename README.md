@@ -28,10 +28,10 @@ which publishes a yearly article with **preseason DVOA projections** (archived v
 
 The following metrics were collected from [Pro-Football-Reference](https://www.pro-football-reference.com/years/2023/index.htm):  
 
-- **Strength of Schedule (`SOS`)** – End-of-season strength of schedule rating  
-- **Simple Rating System (`SRS`)** – Overall end-of-season rating combining point differential and schedule strength  
-- **Offensive SRS (`OSRS`)** – Offensive component of SRS  
-- **Defensive SRS (`DSRS`)** – Defensive component of SRS  
+- **SOS** – End-of-season strength of schedule rating  
+- **SRS** – Overall end-of-season rating combining point differential and schedule strength  
+- **OSRS** – Offensive component of SRS  
+- **DSRS** – Defensive component of SRS  
 
 These values were gathered for each season from **2017–2023** and then attributed to the following year’s team record (e.g., 2017 end-of-season ratings were used as the 2018 team’s baseline).  
 This ensures the columns represent **last season’s final performance metrics**, not preseason projections.  
@@ -42,9 +42,9 @@ Collected from [ESPN FPI](https://www.espn.com/nfl/fpi), with archived snapshots
 
 For every year **2018 through 2024**, I captured the **preseason FPI ratings** for every team as they appeared immediately before the season began.  
 
-- **`FPI_Total`** – Overall team rating (expected point margin per game vs. an average opponent on a neutral field)  
-- **`FPI_Off`** – Offensive component of FPI  
-- **`FPI_Def`** – Defensive component of FPI  
+- **FPI_Total** – Overall team rating (expected point margin per game vs. an average opponent on a neutral field)  
+- **FPI_Off** – Offensive component of FPI  
+- **FPI_Def** – Defensive component of FPI  
 
 📌 These values represent **preseason expectations** from ESPN’s analytics model, aligned with the same timing as Vegas and DVOA projections.  
 
@@ -54,9 +54,9 @@ Collected from [TeamRankings](https://www.teamrankings.com/nfl/):
 
 For every year **2018 through 2024**, I gathered end-of-season values (recorded after the Super Bowl) and attributed them to the **following season’s team record**, ensuring they reflect a team’s most recent performance baseline heading into the next year.  
 
-- **`Luck_Rating`** – Measures how much a team’s record was influenced by randomness (e.g., close games, turnovers)  
-- **`Full_Season_Rating`** – Predictive power rating for the team based on the entire season’s performance  
-- **`Momentum_Rating`** – Predictive power rating based on the team’s **last 10 games** of the season  
+- **Luck_Rating** – Measures how much a team’s record was influenced by randomness (e.g., close games, turnovers)  
+- **Full_Season_Rating** – Predictive power rating for the team based on the entire season’s performance  
+- **Momentum_Rating** – Predictive power rating based on the team’s **last 10 games** of the season  
 
 📌 These metrics provide additional context on team variance, overall strength, and late-season trends that may carry over into the following year.  
 
