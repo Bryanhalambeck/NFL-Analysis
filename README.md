@@ -1,4 +1,3 @@
-
 ## 📂 Dataset: `nfl-data.csv`
 
 For this project, I built a custom dataset (`nfl-data.csv`) covering every NFL team from 2018–2024.  
@@ -30,7 +29,7 @@ The following metrics were collected from [Pro-Football-Reference](https://www.p
 The following metrics were collected from [ESPN FPI](https://www.espn.com/nfl/fpi), I captured the preseason FPI ratings for every team as they appeared immediately before the season began (archived via the Wayback Machine for older seasons):  
 - **FPI_Total** – Overall team rating (expected point margin per game vs. an average opponent on a neutral field)  
 - **FPI_Off** – Offensive component of FPI  
-- **FPI_Def** – Defensive component of FPI  
+- **FPI_Def** – Defensive component of FPI 
 
 The following metrics were collected from [TeamRankings](https://www.teamrankings.com/nfl/), I gathered end-of-season values (after the Super Bowl) and attributed them to the following season’s team. These represent previous-season performance metrics, not preseason projections.    
 - **Luck_Rating** – Measures how much a team’s record was influenced by randomness (e.g., close games, turnovers)  
