@@ -21,32 +21,18 @@ The following metrics were collected from [Football Outsiders / FTN Fantasy](htt
 - **Playoff_Odds** – Probability of making the playoffs  
 - **SB_Win_Odds** – Probability of winning the Super Bowl  
 
-The following metrics were collected from [Pro-Football-Reference](https://www.pro-football-reference.com/years/2023/index.htm). These values were gathered for each season  from **2017–2023** and then attributed to the following year’s team (e.g., 2017 end-of-season ratings were used as the 2018 team’s baseline). These represent **previous-season performance metrics**, not preseason projections.    
+The following metrics were collected from [Pro-Football-Reference](https://www.pro-football-reference.com/years/2023/index.htm). These values were gathered at the end of the season from 2017–2023 (after the Super Bowl) and then attributed to the following year’s team (e.g., 2017 end-of-season  ratings were used as the 2018 team’s baseline). These represent previous-season performance metrics, not preseason projections.    
 - **SOS** – End-of-season strength of schedule rating  
 - **SRS** – Overall end-of-season rating combining point differential and schedule strength  
 - **OSRS** – Offensive component of SRS  
 - **DSRS** – Defensive component of SRS  
 
-
-
-### **3. FPI Ratings**
-
-Collected from [ESPN FPI](https://www.espn.com/nfl/fpi), with archived snapshots accessed via the **Wayback Machine** for each season:  
-
-For every year **2018 through 2024**, I captured the **preseason FPI ratings** for every team as they appeared immediately before the season began.  
-
+The following metrics were collected from [ESPN FPI](https://www.espn.com/nfl/fpi), I captured the preseason FPI ratings for every team as they appeared immediately before the season began (archived via the Wayback Machine for older seasons):  
 - **FPI_Total** – Overall team rating (expected point margin per game vs. an average opponent on a neutral field)  
 - **FPI_Off** – Offensive component of FPI  
 - **FPI_Def** – Defensive component of FPI  
 
-📌 These values represent **preseason expectations** from ESPN’s analytics model, aligned with the same timing as Vegas and DVOA projections.  
-
-### **4. TeamRankings Metrics**
-
-Collected from [TeamRankings](https://www.teamrankings.com/nfl/):  
-
-For every year **2018 through 2024**, I gathered end-of-season values (recorded after the Super Bowl) and attributed them to the **following season’s team record**, ensuring they reflect a team’s most recent performance baseline heading into the next year.  
-
+The following metrics were collected from [TeamRankings](https://www.teamrankings.com/nfl/), I gathered end-of-season values (after the Super Bowl) and attributed them to the following season’s team. These represent previous-season performance metrics, not preseason projections.    
 - **Luck_Rating** – Measures how much a team’s record was influenced by randomness (e.g., close games, turnovers)  
 - **Full_Season_Rating** – Predictive power rating for the team based on the entire season’s performance  
 - **Momentum_Rating** – Predictive power rating based on the team’s **last 10 games** of the season  
