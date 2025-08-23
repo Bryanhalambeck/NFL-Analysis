@@ -1,6 +1,6 @@
 ## 📂 Dataset: `nfl-analysis-data.csv`
 
-For this project, I built a custom dataset (`nfl-data.csv`) covering every NFL team from **2018–2024**.  
+For this project, I built a custom dataset (`nfl-analysis-data.csv`) covering every NFL team from **2018–2024**.  
 
 ---
 
