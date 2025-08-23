@@ -1,4 +1,4 @@
-## 📂 Dataset: `nfl-data.csv`
+## 📂 Dataset: `nfl-analysis-data.csv`
 
 For this project, I built a custom dataset (`nfl-data.csv`) covering every NFL team from **2018–2024**.  
 
