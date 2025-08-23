@@ -34,9 +34,11 @@ The following metrics were collected from [ESPN FPI](https://www.espn.com/nfl/fp
 The following metrics were collected from [TeamRankings](https://www.teamrankings.com/nfl/), I gathered end-of-season values (after the Super Bowl) and attributed them to the following season’s team. These represent previous-season performance metrics, not preseason projections.    
 - **Luck_Rating** – Measures how much a team was influenced by luck
 - **Full_Season_Rating** – Predictive power rating for the team based on the entire season’s performance  
-- **Momentum_Rating** – Rating based on the team’s last 10 games of the season  
+- **Momentum_Rating** – Rating based on the team’s last 10 games of the season
+  
 
-📌 These metrics provide additional context on team variance, overall strength, and late-season trends that may carry over into the following year.  
+
+
 
 
 
