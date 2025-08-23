@@ -52,4 +52,16 @@ Collected from [ESPN FPI](https://www.espn.com/nfl/fpi). I captured the preseaso
 Collected from [TeamRankings](https://www.teamrankings.com/nfl/). I gathered end-of-season values (after the Super Bowl) and attributed them to the following season’s team. These represent **previous-season performance metrics**, not preseason projections.  
 - **Luck_Rating** – Measures how much a team was influenced by luck  
 - **Full_Season_Rating** – Based on TeamRankings’ predictive power rating, rating for the team based on the entire season’s performance  
-- **Momentum_Rating** – Based on TeamRankings’ last 10 games rating, reflecting team performance over the final 10 games of the season  
+- **Momentum_Rating** – Based on TeamRankings’ last 10 games rating, reflecting team performance over the final 10 games of the season
+  
+---
+
+### Z-Score Metrics  
+In addition to the raw values listed above, I created standardized **z-score versions** of each metric.  
+
+- A **z-score** measures how many standard deviations a value is above or below the mean for that season.  
+- This normalization allows fair comparison across different metrics and seasons, even when they use different scales.  
+
+
+
+
