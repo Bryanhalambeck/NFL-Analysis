@@ -1,3 +1,17 @@
+# 🏈 NFL Win Total Analytics: Identifying Overrated and Underrated Teams (2018–2024)
+
+---
+
+## 📖 Project Overview  
+
+This project collects NFL team data from a variety of popular metrics and analyzes them to identify which factors consistently signal whether a team will be **overrated, underrated, or accurately valued** relative to their preseason Vegas win total.  
+
+The main goal is to uncover which metrics provide the strongest predictive power, so that future seasons can be forecasted more effectively.
+
+---
+
+
+
 ## 📂 Dataset: `nfl-analysis-data.csv`
 
 For this project, I built a custom dataset (`nfl-analysis-data.csv`) covering every NFL team from **2018–2024**.  
